@@ -20,7 +20,7 @@ function validate()
    if(pass1 == "" || !pass1.match(passw) || pass1.match(/^Password$/i))
    {
      document.SchoolRegistration.password.focus();
-     alert("Password is Invalid!");
+     alert("Password is Invalid! Password");
     return false;
    }
    var pass2 = document.getElementById("password2").value;
