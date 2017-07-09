@@ -102,6 +102,22 @@ body {
     margin-left: 45%;
 }
 
-.grid {
+.font {
+    font-family: 'Kurale', serif;
+
+}
+
+.cool {
+    background-color: green;
+}
+
+.box {
+    margin-top: 13%;
+    background-color: white;
+    text-align: center;
+    height: 300px;
+    margin-left: 25%;
+    width: 50%;
+    border-top-style:
 
 }
