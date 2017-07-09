@@ -11,16 +11,19 @@
 </div>
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
-  <form class="modal-content animate" name="SchoolRegistration" action="#" onSubmit="return (validate());">
+  <form class="modal-content animate" style="width: 100%" name="SchoolRegistration" action="#" onSubmit="return validate()">
     <div class="container">
-      <label><b>Username</b></label>
+      <label class="b"><b>Username</b></label>
       <input type="text" placeholder="Enter School Name" name="schoolname">
+
+      <label class="b"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email address" name="email">
 
       <label><b>Password</b></label>
       <input type="password" id="password" placeholder="Enter Password" name="psw">
 
-      <label><b>Repeat Password</b></label>
-      <input type="password" id="password2" placeholder="Repeat Password" name="psw-repeat">
+      <label><b>Confirm Password</b></label>
+      <input type="password" id="password2" placeholder="Confirm Password" name="psw-repeat">
 
       <label><b>Mobile Number</b></label>
       <input type="text" placeholder="Enter Mobile Number" name="mobilenumber">
