@@ -17,7 +17,7 @@ function validate()
  }
    var passw = /^(?=.*[A-Z])\w{6,}$/;
    var pass1 = document.getElementById("password").value;
-   if(pass1 == "" || !pass1.match(passw) || pass1.match(/^Password$/i))
+   if(pass1 == "" || !pass1.match(passw) || pass1.match("Password"))
    {
      document.SchoolRegistration.password.focus();
      alert("Password is Invalid!");
